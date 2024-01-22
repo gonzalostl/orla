@@ -8,4 +8,16 @@ body .pantalla {
   height: 1000px;
   width: 100%;
   border-radius: 2%;
+}
+body .fotos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body .fotos .circulo {
+  width: 200px;
+  border-radius: 100%;
+  height: 200px;
+  border: solid 5px black;
+  margin: 2%;
 }/*# sourceMappingURL=estilos.css.map */
