@@ -1,23 +1,41 @@
 body {
-    background-color: rgb(20, 20, 20);
-    padding: 3%;
-    margin: 0%;
-    .pantalla {
-            background-color: whitesmoke;
-            height: 1000px;
-            width: 100%;
-            border-radius: 2%;
+  background-color: rgb(20, 20, 20);
+  padding: 3%;
+  margin: 0%;
+  .pantalla {
+    background-color: whitesmoke;
+    height: 1000px;
+    width: 100%;
+    border-radius: 2%;
+  }
+  .fotos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .circulo {
+      width: 200px;
+      border-radius: 100%;
+      height: 200px;
+      border: solid 5px black;
+      margin: 2%;
     }
-    .fotos{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    .circulo{
-        width: 200px;
-        border-radius: 100%;
-        height: 200px;
-        border: solid 5px black;
-        margin: 2%;
-
-    }}
+  }
 }
+
+body .orla {
+  display: flex;
+  flex-wrap: wrap;
+}
+body .fotos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+body .fotos .circulo {
+  width: 200px;
+  border-radius: 100%;
+  height: 200px;
+  border: solid 5px black;
+  margin: 2%;
+} /*# sourceMappingURL=estilos.css.map */
