@@ -25,7 +25,7 @@ body {
 .pantalla {
   background-color: whitesmoke;
   flex-grow: 1;
-  overflow: auto; /* Enable scroll if content overflows */
+  overflow: auto; /* scroll */
 }
 
 .content {
@@ -52,4 +52,18 @@ body .fotos .circulo {
 } /*# sourceMappingURL=estilos.css.map */
 body .orla .fotos img:hover {
   transform: scale(2);
+}
+
+body .junta {
+  display: flex;
+  justify-content: end;
+  margin: 20px;
+  margin-top: 50px;
+  height: 100px;
+}
+
+body .logo {
+  display: flex;
+  justify-content: center;
+  height: 300px;
 }
