@@ -3,11 +3,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url("../img/clase.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 body .ordenador {
   background-color: #333;
   height: 96vh;
-  width: 100%;
+  width: 200vh;
   border-radius: 1vh;
   padding: 2vh;
   display: flex;
@@ -20,7 +25,11 @@ body .ordenador .camara {
   margin-bottom: 1vh;
 }
 body .ordenador .pantalla {
-  background-color: whitesmoke;
+  background-image: url("../img/fondo.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   flex-grow: 1;
   overflow: auto;
 }
