@@ -8,6 +8,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+
   .ordenador {
     background-color: #333;
     height: 96vh;
@@ -34,47 +35,76 @@ body {
       overflow: auto;
     }
 
-    .content {
-      padding: 2vh;
+    .apagado {
+
+      visibility: hidden;
     }
-  }
 
-  .orla {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    .title {
+      .mainTitle {
+        p {
+          font-size: 8vh;
+          text-align: center;
+        }
 
-    .fotos {
+        margin-top: -4vh;
+      }
+
+      .subTitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          font-size: 3vh;
+        }
+
+        img {
+          width: 7vh;
+        }
+
+        margin-top: -7vh;
+      }
+    }
+
+    .orla {
+      margin-top: 10vh;
       display: flex;
-      align-items: center;
       flex-wrap: wrap;
-      flex-direction: column;
+      justify-content: center;
 
-      .circulo {
-        width: 20vh;
-        border-radius: 10vh;
-        height: 20vh;
-        border: solid 5px black;
-        margin: 1em;
-      }
+      .fotos {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
 
-      img:hover {
-        transform: scale(2);
+        .circulo {
+          width: 20vh;
+          border-radius: 10vh;
+          height: 20vh;
+          border: solid 5px black;
+          margin: 1em;
+        }
+
+        img:hover {
+          transform: scale(2);
+        }
       }
     }
+
+    .junta {
+      display: flex;
+      justify-content: end;
+      margin: 2vh;
+      margin-top: 5vh;
+      height: 10vh;
+    }
+
   }
 
-  .junta {
-    display: flex;
-    justify-content: end;
-    margin: 2vh;
-    margin-top: 5vh;
-    height: 10vh;
-  }
 
-  .logo {
-    display: flex;
-    justify-content: center;
-    height: 6vh;
-  }
+
+
+
 }

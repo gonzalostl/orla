@@ -33,39 +33,54 @@ body .ordenador .pantalla {
   flex-grow: 1;
   overflow: auto;
 }
-body .ordenador .content {
-  padding: 2vh;
+body .ordenador .apagado {
+  visibility: hidden;
 }
-body .orla {
+body .ordenador .title .mainTitle {
+  margin-top: -4vh;
+}
+body .ordenador .title .mainTitle p {
+  font-size: 8vh;
+  text-align: center;
+}
+body .ordenador .title .subTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -7vh;
+}
+body .ordenador .title .subTitle p {
+  font-size: 3vh;
+}
+body .ordenador .title .subTitle img {
+  width: 7vh;
+}
+body .ordenador .orla {
+  margin-top: 10vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-body .orla .fotos {
+body .ordenador .orla .fotos {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
 }
-body .orla .fotos .circulo {
+body .ordenador .orla .fotos .circulo {
   width: 20vh;
   border-radius: 10vh;
   height: 20vh;
   border: solid 5px black;
   margin: 1em;
 }
-body .orla .fotos img:hover {
+body .ordenador .orla .fotos img:hover {
   transform: scale(2);
 }
-body .junta {
+body .ordenador .junta {
   display: flex;
   justify-content: end;
   margin: 2vh;
   margin-top: 5vh;
   height: 10vh;
-}
-body .logo {
-  display: flex;
-  justify-content: center;
-  height: 6vh;
 }/*# sourceMappingURL=estilos.css.map */
