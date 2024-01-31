@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .ordenador {
+    background-color: #333;
+    height: 96vh;
+    width: 100%;
+    border-radius: 1vh;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+
+    .camara {
+      background-color: #666;
+      height: 2vh;
+      width: 2vh;
+      margin-bottom: 1vh;
+    }
+
+    .pantalla {
+      background-color: whitesmoke;
+      flex-grow: 1;
+      overflow: auto; 
+    }
+
+    .content {
+      padding: 2vh;
+    }
+  }
+
+  .orla {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .fotos {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+
+      .circulo {
+        width: 20vh;
+        border-radius: 10vh;
+        height: 20vh;
+        border: solid 5px black;
+        margin: 1em;
+      }
+
+      img:hover {
+        transform: scale(2);
+      }
+    }
+  }
+
+  .junta {
+    display: flex;
+    justify-content: end;
+    margin: 2vh;
+    margin-top: 5vh;
+    height: 10vh;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+  }
+}
