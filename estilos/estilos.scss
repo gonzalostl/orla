@@ -12,7 +12,7 @@ body {
   .ordenador {
     background-color: #333;
     height: 96vh;
-    width: 200vh;
+    width: 170vh;
     border-radius: 1vh;
     padding: 2vh;
     display: flex;
@@ -26,85 +26,90 @@ body {
     }
 
     .pantalla {
-      background-image: url("../img/fondo.jpeg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
+      background-color: #616060;
       flex-grow: 1;
       overflow: auto;
-    }
 
-    .apagado {
-
-      visibility: hidden;
-    }
-
-    .title {
-      .mainTitle {
-        p {
-          font-size: 8vh;
-          text-align: center;
-        }
-
-        margin-top: -4vh;
+      .content {
+        margin-top: -8vh;
+        margin-bottom: -8vh;
+        background-image: url("../img/fondo.jpeg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
       }
 
-      .subTitle {
-        display: flex;
-        justify-content: center;
-        align-items: center;
 
-        p {
-          font-size: 3vh;
-        }
 
-        img {
-          width: 7vh;
-        }
+      .apagado {
 
-        margin-top: -7vh;
+        visibility: hidden;
+
       }
-    }
 
-    .orla {
-      margin-top: 10vh;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      .title {
+        .mainTitle {
+          p {
+            font-size: 8vh;
+            text-align: center;
+          }
 
-      .fotos {
+
+        }
+
+        .subTitle {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          p {
+            font-size: 3vh;
+          }
+
+          img {
+            width: 7vh;
+          }
+
+          margin-top: -7vh;
+        }
+      }
+
+      .orla {
+        margin-top: 10vh;
         display: flex;
-        align-items: center;
         flex-wrap: wrap;
-        flex-direction: column;
+        justify-content: center;
 
-        .circulo {
-          width: 20vh;
-          border-radius: 10vh;
-          height: 20vh;
-          border: solid 5px black;
-          margin: 1em;
-        }
+        .fotos {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          flex-direction: column;
 
-        img:hover {
-          transform: scale(2);
+          .circulo {
+            width: 20vh;
+            border-radius: 10vh;
+            height: 20vh;
+            border: solid 5px black;
+            margin: 1em;
+          }
+
+          img:hover {
+            transform: scale(2);
+          }
         }
       }
-    }
 
-    .junta {
-      display: flex;
-      justify-content: end;
-      margin: 2vh;
-      margin-top: 5vh;
-      height: 10vh;
-    }
+      .junta {
+        display: flex;
+        justify-content: end;
+        margin: 2vh;
+        margin-top: 5vh;
+        height: 10vh;
+      }
 
+
+    }
   }
-
-
-
-
-
 }

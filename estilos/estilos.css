@@ -12,7 +12,7 @@ body {
 body .ordenador {
   background-color: #333;
   height: 96vh;
-  width: 200vh;
+  width: 170vh;
   border-radius: 1vh;
   padding: 2vh;
   display: flex;
@@ -25,59 +25,61 @@ body .ordenador .camara {
   margin-bottom: 1vh;
 }
 body .ordenador .pantalla {
+  background-color: #616060;
+  flex-grow: 1;
+  overflow: auto;
+}
+body .ordenador .pantalla .content {
+  margin-top: -8vh;
+  margin-bottom: -8vh;
   background-image: url("../img/fondo.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  flex-grow: 1;
-  overflow: auto;
 }
-body .ordenador .apagado {
+body .ordenador .pantalla .apagado {
   visibility: hidden;
 }
-body .ordenador .title .mainTitle {
-  margin-top: -4vh;
-}
-body .ordenador .title .mainTitle p {
+body .ordenador .pantalla .title .mainTitle p {
   font-size: 8vh;
   text-align: center;
 }
-body .ordenador .title .subTitle {
+body .ordenador .pantalla .title .subTitle {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: -7vh;
 }
-body .ordenador .title .subTitle p {
+body .ordenador .pantalla .title .subTitle p {
   font-size: 3vh;
 }
-body .ordenador .title .subTitle img {
+body .ordenador .pantalla .title .subTitle img {
   width: 7vh;
 }
-body .ordenador .orla {
+body .ordenador .pantalla .orla {
   margin-top: 10vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-body .ordenador .orla .fotos {
+body .ordenador .pantalla .orla .fotos {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
 }
-body .ordenador .orla .fotos .circulo {
+body .ordenador .pantalla .orla .fotos .circulo {
   width: 20vh;
   border-radius: 10vh;
   height: 20vh;
   border: solid 5px black;
   margin: 1em;
 }
-body .ordenador .orla .fotos img:hover {
+body .ordenador .pantalla .orla .fotos img:hover {
   transform: scale(2);
 }
-body .ordenador .junta {
+body .ordenador .pantalla .junta {
   display: flex;
   justify-content: end;
   margin: 2vh;
