@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/clase.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+body .ordenador {
+  background-color: #333;
+  height: 96vh;
+  width: 170vh;
+  border-radius: 1vh;
+  padding: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+body .ordenador .camara {
+  background-color: #666;
+  height: 2vh;
+  width: 2vh;
+  margin-bottom: 1vh;
+}
+body .ordenador .pantalla {
+  background-color: #616060;
+  flex-grow: 1;
+  overflow: auto;
+}
+body .ordenador .pantalla .content {
+  margin-top: -8vh;
+  margin-bottom: -8vh;
+  background-image: url("../img/fondo.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+body .ordenador .pantalla .apagado {
+  visibility: hidden;
+}
+body .ordenador .pantalla .title .mainTitle p {
+  font-size: 8vh;
+  text-align: center;
+}
+body .ordenador .pantalla .title .subTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -7vh;
+}
+body .ordenador .pantalla .title .subTitle p {
+  font-size: 3vh;
+}
+body .ordenador .pantalla .title .subTitle img {
+  width: 7vh;
+}
+body .ordenador .pantalla .orla {
+  margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .ordenador .pantalla .orla .profes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .ordenador .pantalla .orla .profes .fotos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+body .ordenador .pantalla .orla .profes .fotos .circulo {
+  width: 17vh;
+  border-radius: 10vh;
+  height: 17vh;
+  border: solid 5px black;
+  margin: 1em;
+  background-color: white;
+}
+body .ordenador .pantalla .orla .profes .fotos img:hover {
+  transform: scale(2);
+}
+body .ordenador .pantalla .orla .alumnos {
+  margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .ordenador .pantalla .orla .alumnos .fotos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+body .ordenador .pantalla .orla .alumnos .fotos .circulo {
+  width: 19vh;
+  border-radius: 10vh;
+  height: 20vh;
+  border: solid 5px black;
+  margin: 1em;
+  background-color: white;
+}
+body .ordenador .pantalla .orla .alumnos .fotos img:hover {
+  transform: scale(1.7);
+}
+body .ordenador .pantalla .junta {
+  display: flex;
+  justify-content: end;
+  margin: 2vh;
+  margin-top: 5vh;
+  height: 10vh;
+}/*# sourceMappingURL=estilos.css.map */

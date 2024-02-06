@@ -70,8 +70,8 @@ body .ordenador .pantalla .orla .fotos {
   flex-direction: column;
 }
 body .ordenador .pantalla .orla .fotos .circulo {
-  width: 20vh;
-  border-radius: 10vh;
+  width: 19vh;
+  border-radius: 12vh;
   height: 20vh;
   border: solid 5px black;
   margin: 1em;
@@ -85,4 +85,4 @@ body .ordenador .pantalla .junta {
   margin: 2vh;
   margin-top: 5vh;
   height: 10vh;
-}/*# sourceMappingURL=estilos.css.map */
+} /*# sourceMappingURL=estilos.css.map */
