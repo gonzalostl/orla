@@ -85,4 +85,11 @@ body .ordenador .pantalla .junta {
   margin: 2vh;
   margin-top: 5vh;
   height: 10vh;
+<<<<<<< HEAD
 } /*# sourceMappingURL=estilos.css.map */
+=======
+}
+body .ordenador .boton {
+  background-color: black;
+}/*# sourceMappingURL=estilos.css.map */
+>>>>>>> d143b082fd248212ad5b1417f801134e61e3a457
