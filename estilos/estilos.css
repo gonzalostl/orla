@@ -25,7 +25,6 @@ body .ordenador .camara {
   margin-bottom: 1vh;
 }
 body .ordenador .pantalla {
-  padding-bottom: 90vh;
   margin-bottom: 1vh;
   background-color: #616060;
   flex-grow: 1;
@@ -39,6 +38,9 @@ body .ordenador .pantalla .content {
   background-attachment: fixed;
   background-size: cover;
 }
+body .ordenador .pantalla .content .title .mainTitle {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
 body .ordenador .pantalla .apagado {
   visibility: hidden;
 }
@@ -50,12 +52,12 @@ body .ordenador .pantalla .title .mainTitle p {
   font-size: 50px;
   text-align: center;
 }
-body .ordenador .pantalla .personas {
+body .ordenador .pantalla .profesorado {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-body .ordenador .pantalla .personas .lineas {
+body .ordenador .pantalla .profesorado .lineas {
   height: 5px;
   width: 40%;
   background-color: #333;
@@ -87,6 +89,16 @@ body .ordenador .pantalla .orla .profes .fotos .circulo {
 }
 body .ordenador .pantalla .orla .profes .fotos img:hover {
   transform: scale(2);
+}
+body .ordenador .pantalla .profesorado {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body .ordenador .pantalla .profesorado .lineas {
+  height: 5px;
+  width: 40%;
+  background-color: #333;
 }
 body .ordenador .pantalla .orla .alumnos {
   margin-top: 10vh;
@@ -140,4 +152,4 @@ span {
   font-size: 3vh;
   width: 15vh;
   font-family: "Karantina", system-ui;
-}/*# sourceMappingURL=estilos.css.map */
+} /*# sourceMappingURL=estilos.css.map */
