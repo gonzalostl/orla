@@ -25,6 +25,8 @@ body .ordenador .camara {
   margin-bottom: 1vh;
 }
 body .ordenador .pantalla {
+  padding-bottom: 90vh;
+  margin-bottom: 1vh;
   background-color: #616060;
   flex-grow: 1;
   overflow: auto;
@@ -116,7 +118,6 @@ body .ordenador .pantalla .junta {
   height: 10vh;
 }
 body .ordenador button {
-  width: 10vh;
   background-color: #333;
   margin: 0 auto;
   border-radius: 10vh;
