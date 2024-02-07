@@ -33,7 +33,7 @@ body {
       overflow: auto;
 
       .content {
-        margin-top: -8vh;
+        //margin-top: -8vh;
         margin-bottom: -8vh;
         background-image: url("../img/fondo.jpeg");
         background-position: center center;
@@ -47,27 +47,23 @@ body {
       }
 
       .title {
+        display: flex;
+        justify-content: center;
         .mainTitle {
           p {
-            font-size: 8vh;
+            font-size: 50px;
             text-align: center;
           }
         }
-
-        .subTitle {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-          p {
-            font-size: 3vh;
-          }
-
-          img {
-            width: 7vh;
-          }
-
-          margin-top: -7vh;
+      }
+      .personas {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .lineas {
+          height: 5px;
+          width: 40%;
+          background-color: #333;
         }
       }
 
@@ -133,10 +129,23 @@ body {
 
       .junta {
         display: flex;
-        justify-content: end;
+        justify-content: space-between;
         margin: 2vh;
         margin-top: 5vh;
         height: 10vh;
+        .subTitle {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          p {
+            font-size: 3vh;
+          }
+
+          img {
+            width: 7vh;
+          }
+        }
       }
     }
 
@@ -152,5 +161,5 @@ span {
   text-align: center;
   font-size: 3vh;
   width: 15vh;
-  font-family: 'Karantina', system-ui;
+  font-family: "Karantina", system-ui;
 }
