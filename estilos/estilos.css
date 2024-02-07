@@ -124,5 +124,8 @@ body .ordenador button {
 }
 
 span {
+  text-align: center;
+  font-size: 3vh;
+  width: 15vh;
   font-family: "Karantina", system-ui;
 }/*# sourceMappingURL=estilos.css.map */
