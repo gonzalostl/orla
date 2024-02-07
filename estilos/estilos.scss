@@ -74,10 +74,12 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+
         .profes {
           display: flex;
           flex-wrap: wrap;
           justify-content: center;
+
           .fotos {
             display: flex;
             align-items: center;
@@ -98,11 +100,13 @@ body {
             }
           }
         }
+
         .alumnos {
           margin-top: 10vh;
           display: flex;
           flex-wrap: wrap;
           justify-content: center;
+
           .fotos {
             display: flex;
             align-items: center;
@@ -134,8 +138,15 @@ body {
       }
     }
 
-    .boton {
-      background-color: black;
+    button {
+      width: 10vh;
+      background-color: #333;
+      margin: 0 auto;
+      border-radius: 10vh;
     }
   }
+}
+
+span {
+  font-family: 'Honk', system-ui;
 }

@@ -63,21 +63,50 @@ body .ordenador .pantalla .orla {
   flex-wrap: wrap;
   justify-content: center;
 }
-body .ordenador .pantalla .orla .fotos {
+body .ordenador .pantalla .orla .profes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .ordenador .pantalla .orla .profes .fotos {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
 }
-body .ordenador .pantalla .orla .fotos .circulo {
+body .ordenador .pantalla .orla .profes .fotos .circulo {
+  width: 17vh;
+  border-radius: 10vh;
+  height: 17vh;
+  border: solid 5px black;
+  margin: 1em;
+  background-color: white;
+}
+body .ordenador .pantalla .orla .profes .fotos img:hover {
+  transform: scale(2);
+}
+body .ordenador .pantalla .orla .alumnos {
+  margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .ordenador .pantalla .orla .alumnos .fotos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+body .ordenador .pantalla .orla .alumnos .fotos .circulo {
   width: 19vh;
-  border-radius: 12vh;
+  border-radius: 10vh;
   height: 20vh;
   border: solid 5px black;
   margin: 1em;
+  background-color: white;
 }
-body .ordenador .pantalla .orla .fotos img:hover {
-  transform: scale(2);
+body .ordenador .pantalla .orla .alumnos .fotos img:hover {
+  transform: scale(1.7);
 }
 body .ordenador .pantalla .junta {
   display: flex;
@@ -85,11 +114,14 @@ body .ordenador .pantalla .junta {
   margin: 2vh;
   margin-top: 5vh;
   height: 10vh;
-<<<<<<< HEAD
-} /*# sourceMappingURL=estilos.css.map */
-=======
 }
-body .ordenador .boton {
-  background-color: black;
+body .ordenador button {
+  width: 10vh;
+  background-color: #333;
+  margin: 0 auto;
+  border-radius: 10vh;
+}
+
+span {
+  font-family: "Honk", system-ui;
 }/*# sourceMappingURL=estilos.css.map */
->>>>>>> d143b082fd248212ad5b1417f801134e61e3a457
