@@ -30,7 +30,6 @@ body .ordenador .pantalla {
   overflow: auto;
 }
 body .ordenador .pantalla .content {
-  margin-bottom: -8vh;
   background-image: url("../img/fondo.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -40,14 +39,7 @@ body .ordenador .pantalla .content {
 body .ordenador .pantalla .apagado {
   visibility: hidden;
 }
-body .ordenador .pantalla .title {
-  display: flex;
-  justify-content: center;
-}
-body .ordenador .pantalla .title .mainTitle p {
-  font-size: 50px;
-  text-align: center;
-}
+
 body .ordenador .pantalla .personas {
   display: flex;
   align-items: center;
@@ -90,6 +82,7 @@ body .ordenador .pantalla .orla .profes .fotos .circulo {
 }
 body .ordenador .pantalla .orla .profes .fotos img:hover {
   transform: scale(2);
+  transition: 1s;
 }
 body .ordenador .pantalla .orla .alumnos {
   display: flex;
@@ -101,6 +94,7 @@ body .ordenador .pantalla .orla .alumnos .fotos {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
+  margin-bottom: 15px;
 }
 body .ordenador .pantalla .orla .alumnos .fotos .circulo {
   width: 19vh;
@@ -112,13 +106,17 @@ body .ordenador .pantalla .orla .alumnos .fotos .circulo {
 }
 body .ordenador .pantalla .orla .alumnos .fotos img:hover {
   transform: scale(1.7);
+  transition: 1s;
 }
 body .ordenador .pantalla .junta {
   display: flex;
   justify-content: space-between;
-  margin: 2vh;
-  margin-top: 5vh;
   height: 10vh;
+}
+body .ordenador .pantalla .junta h3 {
+  text-align: center;
+  font-size: 40px;
+  margin-right: 100px;
 }
 body .ordenador .pantalla .junta .subTitle {
   display: flex;
