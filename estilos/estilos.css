@@ -52,6 +52,11 @@ body .ordenador .pantalla .personas {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 5vh;
+}
+body .ordenador .pantalla .personas h2 {
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 body .ordenador .pantalla .personas .lineas {
   height: 5px;
@@ -87,7 +92,6 @@ body .ordenador .pantalla .orla .profes .fotos img:hover {
   transform: scale(2);
 }
 body .ordenador .pantalla .orla .alumnos {
-  margin-top: 10vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -138,4 +142,4 @@ span {
   font-size: 3vh;
   width: 15vh;
   font-family: "Karantina", system-ui;
-}/*# sourceMappingURL=estilos.css.map */
+} /*# sourceMappingURL=estilos.css.map */
