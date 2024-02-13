@@ -8,4 +8,11 @@ body .pantalla {
   height: 1000px;
   width: 100%;
   border-radius: 2%;
+}
+body .pantalla .header {
+  display: flex;
+  justify-content: center;
+}
+body .pantalla .header .h4 {
+  font-size: 20px;
 }/*# sourceMappingURL=estilos.css.map */
